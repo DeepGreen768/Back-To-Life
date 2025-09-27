@@ -1,15 +1,41 @@
-# Back to Life — OSW Website Revamp
+# Back To Life — Futuristic Website
 
-This is a futuristic revamp of the Open Source Weekend site, built with **Vanilla HTML, CSS and JS**.
+Revamped version of the [Open Source Weekend website](https://osd.opensourceweekend.org) with a completely new futuristic dark/light theme.
 
-## Branch
-`osw-backtolife-website`
+## 🌌 Features
+- Futuristic dark/light mode with toggle (saved in localStorage)
+- Hero section with animated canvas background
+- Sections: About, Projects, Team, Contact
+- Responsive, modern UI/UX built with **Vanilla HTML, CSS, and JS** only
+- Optimized for performance and accessibility
 
-## What’s included
-- `index.html` — single-page layout with sections
-- `styles.css` — modular CSS with dark/light theme
-- `main.js` — interactions, canvas background, and small utilities
-- `README.md`, `CONTRIBUTING.md`, `.gitignore`
+## 🚀 Quick Start
+1. Clone the repository:
+   ```bash
+   git clone -b osw-backtolife-website <repo-url>
+   ```
 
-## Quick start
-Open `index.html` in a browser. No build step required.
+2. Navigate into the project folder:
+   ```bash
+   cd osw-backtolife-website
+   ```
+
+3. Open `index.html` in your browser to view the site.
+
+## 🛠️ Development
+- Edit `index.html` for structure/content.
+- Update `styles.css` for styling.
+- Modify `main.js` for interactivity and animations.
+
+## 👥 Team
+**Team Name:** Back To Life  
+**Team Size:** 3–4  
+
+Members:
+- Member 1
+- Member 2
+- Member 3
+- Member 4
+
+## 📬 Contact
+Use the contact form on the site or open an issue in this repository.
