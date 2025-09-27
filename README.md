@@ -33,7 +33,7 @@ Revamped version of the [Open Source Weekend website](https://osd.opensourceweek
 
 Members:
 - Member 1: Mohammad Albab
-- Member 2
+- Member 2: Dhyey Patel
 - Member 3
 - Member 4
 
