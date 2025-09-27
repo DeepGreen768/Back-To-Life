@@ -7,7 +7,7 @@ Revamped version of the [Open Source Weekend website](https://osd.opensourceweek
 - Hero section with animated canvas background
 - Sections: About, Projects, Team, Contact
 - Responsive, modern UI/UX built with **Vanilla HTML, CSS, and JS** only
-- Optimized for performance and accessibility
+- Optimised for performance and accessibility
 
 ## 🚀 Quick Start
 1. Clone the repository:
@@ -32,7 +32,7 @@ Revamped version of the [Open Source Weekend website](https://osd.opensourceweek
 **Team Size:** 3–4  
 
 Members:
-- Member 1
+- Member 1: Mohammad Albab
 - Member 2
 - Member 3
 - Member 4
