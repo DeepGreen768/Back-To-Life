@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Back to Life — Open Source Weekend Revamp</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body data-theme="dark">
+  <header class="topbar">
+    <div class="brand">
+      <div class="logo">B2L</div>
+      <div class="brand-text">
+        <h1>Back to Life</h1>
+        <p class="muted">osw-backtolife-website</p>
+      </div>
+    </div>
+
+    <nav class="nav" id="nav">
+      <a href="#home" class="nav-link">Home</a>
+      <a href="#about" class="nav-link">About</a>
+      <a href="#projects" class="nav-link">Projects</a>
+      <a href="#events" class="nav-link">Events</a>
+      <a href="#team" class="nav-link">Team</a>
+      <a href="#contact" class="nav-link">Contact</a>
+    </nav>
+
+    <div class="top-controls">
+      <button id="themeBtn" class="icon-btn" aria-label="Toggle theme">🌓</button>
+      <button id="menuBtn" class="icon-btn mobile-only" aria-label="Open menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <canvas id="bgCanvas"></canvas>
+      <div class="hero-inner container">
+        <div class="hero-left">
+          <h2 class="kicker">Open Source • Revived</h2>
+          <h1 class="hero-title">Back to Life — Open Source Weekend</h1>
+          <p class="lead">A modern, community-first revamp of the OSW web experience — built with Vanilla HTML, CSS and JS. Learn, revive, and contribute.</p>
+          <div class="hero-ctas">
+            <a class="btn primary" href="#projects">Explore Projects</a>
+            <a class="btn ghost" href="#events">See Events</a>
+          </div>
+
+          <div class="stats">
+            <div class="stat">
+              <strong>20+</strong>
+              <span class="muted">Workshops</span>
+            </div>
+            <div class="stat">
+              <strong>200+</strong>
+              <span class="muted">Contributors</span>
+            </div>
+            <div class="stat">
+              <strong>50+</strong>
+              <span class="muted">Projects</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-right panel">
+          <h3>Quick Links</h3>
+          <ul class="quick-links">
+            <li><a href="#">Repository</a></li>
+            <li><a href="#">Docs</a></li>
+            <li><a href="#">Contribute</a></li>
+            <li><a href="#">Community</a></li>
+          </ul>
+          <div style="margin-top:14px">
+            <small class="muted">Branch:</small>
+            <div class="code">osw-backtolife-website</div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>About Open Source Weekend</h2>
+          <p class="muted">We revive projects, mentor newcomers and celebrate open source through events and collaboration.</p>
+        </div>
+
+        <div class="cards-grid">
+          <article class="card">
+            <h4>Mission</h4>
+            <p class="muted">Support maintainers, onboard contributors, and bring stalled projects back to life.</p>
+          </article>
+          <article class="card">
+            <h4>How We Work</h4>
+            <p class="muted">Workshops, sprints, mentorship, and community showcases guided by contributors.</p>
+          </article>
+          <article class="card">
+            <h4>Join Us</h4>
+            <p class="muted">Fork the repo, create a branch named <code>osw-backtolife-website</code>, open a PR.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Featured Projects</h2>
+          <p class="muted">Selected projects from our community — lightweight, maintainable, and beginner-friendly.</p>
+        </div>
+
+        <div class="projects-grid">
+          <div class="project-card">
+            <div class="project-media" aria-hidden></div>
+            <div class="project-body">
+              <h4>Project Aurora</h4>
+              <p class="muted">Visualization toolkit for event data and dashboards.</p>
+              <div class="project-tags"><span>JS</span><span>UI</span></div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-media" aria-hidden></div>
+            <div class="project-body">
+              <h4>ReviveBot</h4>
+              <p class="muted">Automation to keep stale repos healthy with PR reminders.</p>
+              <div class="project-tags"><span>Bot</span><span>CI</span></div>
+            </div>
+          </div>
+
+          <div class="project-card">
+            <div class="project-media" aria-hidden></div>
+            <div class="project-body">
+              <h4>Docs Portal</h4>
+              <p class="muted">A modern docs aggregator for OSW events and tutorials.</p>
+              <div class="project-tags"><span>Docs</span><span>Web</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="events" class="section">
+      <div class="container">
+        <div class="section-head">
+          <h2>Upcoming Events</h2>
+          <p class="muted">Workshops, sprints and lightning talks — join a session or host one.</p>
+        </div>
+
+        <div class="events-list">
+          <div class="event">
+            <div class="event-time">Oct 10 • 10:00</div>
+            <div class="event-body">
+              <h4>Intro to Open Source Contributions</h4>
+              <p class="muted">A beginner-friendly workshop to get started with open source.</p>
+            </div>
+          </div>
+
+          <div class="event">
+            <div class="event-time">Oct 11 • 14:00</div>
+            <div class="event-body">
+              <h4>Repo Revival Sprint</h4>
+              <p class="muted">Hands-on sprint to fix issues and create first PRs.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="section alt">
+      <div class="container">
+        <div class="section-head">
+          <h2>Team — Back to Life</h2>
+          <p class="muted">Roles: Design, Frontend, Docs & QA. Want to join? Open a PR.</p>
+        </div>
+
+        <div class="team-grid">
+          <div class="member card">
+            <div class="avatar">RL</div>
+            <div class="member-info">
+              <strong>Lead Designer</strong>
+              <div class="muted">Design & UX</div>
+            </div>
+          </div>
+
+          <div class="member card">
+            <div class="avatar">JS</div>
+            <div class="member-info">
+              <strong>Frontend Dev</strong>
+              <div class="muted">Vanilla JS & Integrations</div>
+            </div>
+          </div>
+
+          <div class="member card">
+            <div class="avatar">CT</div>
+            <div class="member-info">
+              <strong>Docs & QA</strong>
+              <div class="muted">Content & Testing</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact-section">
+      <div class="container contact-grid">
+        <div class="card">
+          <h3>Contact & Contribute</h3>
+          <p class="muted">Fork the repo, create branch <code>osw-backtolife-website</code> and open a PR.</p>
+          <ul class="links">
+            <li>GitHub • Discord • Docs</li>
+          </ul>
+        </div>
+
+        <form id="contactForm" class="card form-card" novalidate>
+          <label class="muted">Name<input id="name" type="text" required placeholder="Your name"></label>
+          <label class="muted">Email<input id="email" type="email" required placeholder="you@example.com"></label>
+          <label class="muted">Message<textarea id="message" rows="5" required placeholder="Brief message"></textarea></label>
+          <div class="form-actions">
+            <button type="submit" class="btn primary">Send Message</button>
+            <button type="button" id="clearBtn" class="btn ghost">Clear</button>
+          </div>
+          <p id="formMsg" class="muted small"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <strong>Back to Life</strong>
+          <div class="muted">osw-backtolife-website</div>
+        </div>
+        <div class="muted">© <span id="year"></span> • Built with Vanilla JS</div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Mobile nav overlay -->
+  <div id="mobileNav" class="mobile-nav" aria-hidden="true">
+    <nav>
+      <a href="#home" class="mobile-link">Home</a>
+      <a href="#about" class="mobile-link">About</a>
+      <a href="#projects" class="mobile-link">Projects</a>
+      <a href="#events" class="mobile-link">Events</a>
+      <a href="#team" class="mobile-link">Team</a>
+      <a href="#contact" class="mobile-link">Contact</a>
+    </nav>
+    <button id="closeMobile" class="icon-btn">✕</button>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
